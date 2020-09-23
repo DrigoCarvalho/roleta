@@ -1,0 +1,682 @@
+@keyframes blink {
+  0% {
+    background: rgba(0,0,0,0.6)
+  }
+  50% {
+    background: rgba(60,0,0,0.6)
+  }
+  100% {
+    background: rgba(0,0,0,0.6)
+  }
+}
+
+
+* {
+  uox-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font: 20px/1 'helvetica neue', helvetica, arial, sans-serif;
+  background: #1F1C1D url(bordoback.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  color: #0077B3;
+  text-decoration: none;
+}
+
+.Container {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  transition: all 0.5s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.Blink .Container {
+  animation: blink normal 1.5s infinite ease-in-out;
+}
+
+body.Spinning .Container {
+  background: rgba(0,0,0,0.9);
+}
+
+.Content {
+
+}
+
+.Header {
+  text-align: center;
+  margin: 0 0 40px 0;
+  font-family: 'sf_alien_encountersitalic', sans-serif;
+  font-size: 26px;
+  margin: 0;
+  color: goldenrod;
+  text-transform: uppercase;
+  margin: 0 auto 25px auto;
+}
+
+.HeaderSpinText {
+  font-family: 'colors_of_autumnregular', sans-serif;
+  font-size: 26px;
+  color: #bf65ff;
+  display: block;
+  text-shadow: none;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.painel{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width:100%;
+  height:100%;
+  padding-top:30px;
+}
+.outerbox{
+  width:310px;
+  height:78px;
+  background:#F8D84E;
+  border-radius: 25px;
+  padding: 4px;
+  position:relative;
+}
+
+.innerbox{
+  width:302px;
+  height:70px;
+  border-radius: 25px;
+  background: #5D1418;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stw-text{
+  width:100%;
+  font-family: 'Avenir-Medium',sans-serif;
+  font-size:24px;
+  font-weight: bold;
+  color:#FFFFFF;
+  text-align: center;
+}
+
+.even{
+  animation: blink1 1s ease-in infinite;
+}
+
+.odd{
+  animation: blink2 1s ease-in infinite;
+}
+
+@keyframes blink1{
+  0%,49%{
+    background: gold;
+  }
+  50%,100%{
+    background: white;
+  }
+}
+@keyframes blink2{
+  0%,49%{
+    background: white;
+  }
+  50%,100%{
+    background: gold;
+  }
+}
+.circle1{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 24px;
+  top: 6px;
+}
+.circle2{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 42px;
+  top: 6px;
+}
+.circle3{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 60px;
+  top: 6px;
+}
+.circle4{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 78px;
+  top: 6px;
+}
+.circle5{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 96px;
+  top: 6px;
+}
+.circle6{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 114px;
+  top: 6px;
+}
+.circle7{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 132px;
+  top: 6px;
+}
+.circle8{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 150px;
+  top: 6px;
+}
+.circle9{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 168px;
+  top: 6px;
+}
+.circle10{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 186px;
+  top: 6px;
+}
+.circle11{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 204px;
+  top: 6px;
+}
+.circle12{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 222px;
+  top: 6px;
+}
+.circle13{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 240px;
+  top: 6px;
+}
+.circle14{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 258px;
+  top: 6px;
+}
+.circle15{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 274px;
+  top: 6px;
+}
+.circle17{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background: white;
+  left: 287px;
+  top: 12px;
+}
+.circle18{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background: white;
+  left: 290px;
+  top: 26px;
+}
+.circle19{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background: white;
+  left: 290px;
+  top: 42px;
+}
+.circle20{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background: white;
+  left: 287px;
+  top: 56px;
+}
+.circle22{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 274px;
+  top: 60px;
+}
+.circle23{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 258px;
+  top: 60px;
+}
+.circle24{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 240px;
+  top: 60px;
+}
+.circle25{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 222px;
+  top: 60px;
+}
+.circle26{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 204px;
+  top: 60px;
+}
+.circle27{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 186px;
+  top: 60px;
+}
+.circle28{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 168px;
+  top: 60px;
+}
+.circle29{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 150px;
+  top: 60px;
+}
+.circle30{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 132px;
+  top: 60px;
+}
+.circle31{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 114px;
+  top: 60px;
+}
+.circle32{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 96px;
+  top: 60px;
+}
+.circle33{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 78px;
+  top: 60px;
+}
+.circle34{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 60px;
+  top: 60px;
+}
+.circle35{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 42px;
+  top: 60px;
+}
+.circle36{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 24px;
+  top: 60px;
+}
+.circle37{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 12px;
+  top: 55px;
+}
+.circle38{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 8px;
+  top: 42px;
+}
+.circle39{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 8px;
+  top: 26px;
+}
+.circle40{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  left: 12px;
+  top: 12px;
+}
+
+.HeaderWheelName {
+}
+
+@media (max-width: 420px) {
+  .Header {
+    font-size: 18px;
+  }
+
+  .Header span {
+    font-size: 18px;
+  }
+}
+
+.WheelContainer {
+  position: relative;
+  text-align: center;
+}
+
+.WheelResult {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #5D1418;
+  background: #F8D84E;
+  padding: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1 ease-out;
+  opacity: 0;
+  font-weight: bold;
+  box-shadow: 0 0 0 1rem rgba(236, 194, 7, 0.3);
+}
+
+.WheelResult.Show {
+  opacity: 1;
+}
+
+.WheelCircles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 130px;
+  background-image: url(logo2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 120px auto;
+  
+  opacity: 1;
+  transition: all 0.5s ease-out;
+}
+
+.WheelBorders {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 460px;
+  height: 460px;
+  background-image: url(bordaroleta.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 460px ;
+  
+  opacity: 1;
+  transition: all 0.5s ease-out;
+}
+
+.WheelBorder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 10px #F8D84E;
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px #000000;
+  
+}
+
+
+
+
+body.Spinning .WheelCircles {
+  opacity: 1;
+}
+
+.WheelCanvas {
+
+}
+
+@media (max-width: 420px) {
+  .WheelCanvas {
+    width: 305px;
+    height: 305px;
+  }
+
+  .WheelCircles {
+    width: 120px;
+    height: 120px;
+  }
+
+  .WheelResult {
+    width: 65px;
+    height: 65px;
+  }
+
+  .WheelBorder {
+    
+    height: 305px;
+    width: 305px;
+    
+  }
+
+  .WheelResult { 
+    font-size: 12px;
+  }
+
+}
+
+.ArrowDown {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 30px solid gold;
+  transform: translate(-50%, -10px);
+  opacity: 0.8;
+  transition: all 0.5s ease-out;
+
+  
+}
+
+body.Spinning .ArrowDown {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+
+.Actions {
+  display: block;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.SpinButton {
+  display: inline-block;
+  transition: all 0.5s ease-out;
+}
+
+body.Spinning .SpinButton {
+  opacity: 0.2;
+}
+
+.Punch {
+  position: relative;
+  background: #77201D;
+  border-top: 1px solid #68120e;
+  border-right: 1px solid #4e0d0afd;
+  border-bottom: 1px solid #350907fd;
+  border-left: 1px solid #4e0d0afd;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #852420, 0 1px 0 #6b1d1a, 0 6px 0 #6b1d1a, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px #852420, 0 1px 0 #6b1d1a, 0 6px 0 #6b1d1a, 0 8px 4px 1px #111111;
+  color: #fff;
+  font: bold 20px/1 'helvetica neue', helvetica, arial, sans-serif;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  text-shadow: 0 -1px 1px #1e2d4d;
+  width: 150px;
+  -webkit-background-clip: padding-box;
+}
+.Punch:hover,
+.Punch.hover {
+  -webkit-box-shadow: inset 0 0 20px 1px #b12f2b, 0 1px 0 #6b1d1a, 0 6px 0 #6b1d1a, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 0 20px 1px #b12f2b, 0 1px 0 #6b1d1a, 0 6px 0 #6b1d1a, 0 8px 4px 1px #111111;
+cursor: pointer; }
+.Punch:active,
+.Punch.active {
+  -webkit-box-shadow: inset 0 1px 10px 1px #b12f2b, 0 1px 0 #6b1d1a, 0 2px 0 #6b1d1a, 0 4px 3px 0 #111111;
+  box-shadow: inset 0 1px 10px 1px #b12f2b, 0 1px 0 #6b1d1a, 0 2px 0 #6b1d1a, 0 4px 3px 0 #111111;
+  top: 5px;
+}
+
+.RetroButton {
+  display: inline-block;
+  font-family: 'sf_alien_encountersitalic', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  color: #bf65ff;
+  text-shadow: 2px 4px #6e00ff;
+  cursor: pointer;
+  text-decoration: none;
+  background: #f58aff;
+  padding: 20px;
+  box-shadow: 5px 5px 0 #e000ff;
+  transition: all 0.2s ease-out;
+  margin: 0 0 40px 0;
+  letter-spacing: 2px;
+}
+
+.RetroButton:hover,
+.RetroButton.hover {
+  color: #e365ff;
+  background: #da8aff;
+  box-shadow: 8px 8px 0 #a900ff;
+}
+
+.Footer {
+  font-size: 12px;
+  text-align: center;
+}
+
