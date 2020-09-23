@@ -535,8 +535,8 @@ body.Spinning .Container {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 400px;
-  width: 400px;
+  height: 405px;
+  width: 405px;
   background-color: rgba(255, 255, 255, 0);
   border: solid 10px #F8D84E;
   border-radius: 50%;
@@ -573,8 +573,8 @@ body.Spinning .WheelCircles {
 
   .WheelBorder {
     
-    height: 305px;
-    width: 305px;
+    height: 307px;
+    width: 307px;
     
   }
 
@@ -592,10 +592,11 @@ body.Spinning .WheelCircles {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 30px solid gold;
+  border-top: 30px solid #F8D84E;
   transform: translate(-50%, -10px);
   opacity: 0.8;
   transition: all 0.5s ease-out;
+  z-index: 100;
 
   
 }
